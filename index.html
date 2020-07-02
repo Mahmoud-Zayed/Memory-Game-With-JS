@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Memory Game With Javascript</title>
+        <!-- favicon Website -->
+        <link rel="icon" href="images/favicon/emoji.png" type="image/png" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- Start control-buttons -->
+        <section class="control-buttons">
+            <span>Start Game</span>
+        </section>
+        <!-- End control-buttons -->
+
+        <!-- Start info -->
+        <section class="info-container">
+            <div class="name">Hello: <span></span></div>
+            <div class="tries">Wrong Tries: <span>0</span></div>
+        </section>
+        <!-- End info -->
+
+        <!-- Start memory-game -->
+        <section class="memory-game-blocks">
+            <!-- 1 angular -->
+            <div class="game-block" data-technology="angular">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/angular-js.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="angular">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/angular-js.png" alt="" />
+                </div>
+            </div>
+            <!-- 2 vue -->
+            <div class="game-block" data-technology="vue">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/vue-js.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="vue">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/vue-js.png" alt="" />
+                </div>
+            </div>
+            <!-- 3 react -->
+            <div class="game-block" data-technology="react">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/react-js.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="react">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/react-js.png" alt="" />
+                </div>
+            </div>
+            <!-- 4 html -->
+            <div class="game-block" data-technology="html">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/html.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="html">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/html.png" alt="" />
+                </div>
+            </div>
+            <!-- 5 css -->
+            <div class="game-block" data-technology="css">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/css.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="css">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/css.png" alt="" />
+                </div>
+            </div>
+            <!-- 6 code -->
+            <div class="game-block" data-technology="code">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/code.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="code">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/code.png" alt="" />
+                </div>
+            </div>
+            <!-- 7 php -->
+            <div class="game-block" data-technology="php">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/php.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="php">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/php.png" alt="" />
+                </div>
+            </div>
+            <!-- 8 javascript -->
+            <div class="game-block" data-technology="javascript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/javascript.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="javascript">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/javascript.png" alt="" />
+                </div>
+            </div>
+            <!-- 9 mysql -->
+            <div class="game-block" data-technology="mysql">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/mysql.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="mysql">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/mysql.png" alt="" />
+                </div>
+            </div>
+            <!-- 10 wordpress -->
+            <div class="game-block" data-technology="wordpress">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/wordpress.png" alt="" />
+                </div>
+            </div>
+            <div class="game-block" data-technology="wordpress">
+                <div class="face front"></div>
+                <div class="face back">
+                    <img src="images/wordpress.png" alt="" />
+                </div>
+            </div>
+        </section>
+        <!-- End memory-game -->
+
+        <!-- Start Audio -->
+        <section>
+            <audio id="success" src="audio/Success-sound-effect.mp3"></audio>
+            <audio id="fail" src="audio/game-fail-sound-effect.mp3"></audio>
+        </section>
+        <!-- End Audio -->
+
+        <!-- Start Loading -->
+        <div class="lod">
+            <div class="lds-dual-ring"></div>
+        </div>
+        <!-- End Loading -->
+
+        <!-- jquery-3.4.0 -->
+        <script src="js/vendors/jquery-3.4.0.min.js"></script>
+        <!-- Nicescroll -->
+        <script src="js/vendors/jquery.nicescroll.min.js"></script>
+        <!-- javascript.js ==> Behaviour Website -->
+        <script src="js/javascript.js"></script>
+        <!-- jquery ==> Behaviour Website -->
+        <script src="js/jquery.js"></script>
+    </body>
+</html>
